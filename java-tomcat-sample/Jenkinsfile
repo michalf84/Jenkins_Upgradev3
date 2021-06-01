@@ -17,7 +17,6 @@ pipeline {
                 build job: 'Deploy_Application_Staging'
 
             }
-            
         }
         stage('Deploy to Production'){
             steps{
